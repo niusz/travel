@@ -30,7 +30,7 @@ export default {
             .back-icon
                 text-align: center
                 font-size: .4rem
-        .header-input 
+        .header-input
             flex: 1
             height: .64rem
             line-height: .64rem
