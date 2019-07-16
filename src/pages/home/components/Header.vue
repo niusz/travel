@@ -19,19 +19,18 @@ export default {
 </script>
 <style lang="stylus" scoped>
     @import '~styles/varibles.styl'
-    // 
-    .header 
+    .header
         display: flex
         line-height: .86rem
         background: $bgColor
         color: #fff
-        .header-left 
+        .header-left
             width: .64rem
             float: left
-            .back-icon 
+            .back-icon
                 text-align: center
                 font-size: .4rem
-        .header-input   
+        .header-input 
             flex: 1
             height: .64rem
             line-height: .64rem
@@ -39,13 +38,13 @@ export default {
             margin-left: .2rem
             padding-left: .2rem
             background: #fff
-            border-radius: .1rem 
+            border-radius: .1rem
             color: #ccc
-        .header-right 
+        .header-right
             width: 1.24rem
             float: right
             text-align: center
-            .arrow-icon 
+            .arrow-icon
                 margin-left: -.04rem
                 font-size: .24rem
 </style>
