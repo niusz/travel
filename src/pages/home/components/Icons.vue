@@ -52,9 +52,9 @@ export default {
                 imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png',
                 desc: '拙政园'
             },{
-                id: '0009',
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/90/59a2f523ee2f9202.png',
-                desc: '虎丘'
+                id: '0008',
+                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png',
+                desc: '拙政园'
             }]
         }
     },
@@ -79,33 +79,35 @@ export default {
     .icons >>> .swiper-container
         height: 0
         padding-bottom: 50%
-    .icon
-        position: relative
-        overflow: hidden
-        float: left
-        height: 0
-        width: 25%
-        padding-bottom: 25%
-        .icon-img
-            position: absolute
-            top: 0
-            left: 0
-            right: 0
-            bottom: .44rem
-            box-sizing: border-box
-            padding: .1rem
-            .icon-img-content
-                display: block
-                margin: 0 auto
-                height: 100%
-        .icon-desc
-            position: absolute
-            left: 0
-            right: 0
-            bottom: 0
-            height: .44rem
-            line-height: .44rem
-            color: $darkTextColor
-            text-align: center
-            ellipsis ()
+    .icons 
+        margin-top: .1rem
+        .icon
+            position: relative
+            overflow: hidden
+            float: left
+            height: 0
+            width: 25%
+            padding-bottom: 25%
+            .icon-img
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: .44rem
+                box-sizing: border-box
+                padding: .1rem
+                .icon-img-content
+                    display: block
+                    margin: 0 auto
+                    height: 100%
+            .icon-desc
+                position: absolute
+                left: 0
+                right: 0
+                bottom: 0
+                height: .44rem
+                line-height: .44rem
+                color: $darkTextColor
+                text-align: center
+                ellipsis ()
 </style>
