@@ -15,11 +15,11 @@
 </template>
 <script>
 export default {
-    name:'HomeRecommend',
-    props: {
-        list: Array
-    }
-    // data (){
+  name: 'HomeRecommend',
+  props: {
+    list: Array
+  }
+  // data (){
     //     return {
     //         recommendList: [{
     //         id: '0001',
