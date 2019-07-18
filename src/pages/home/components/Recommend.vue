@@ -2,7 +2,7 @@
     <div>
         <div class="title">热销推荐</div>
         <ul>
-            <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+            <li class="item border-bottom" v-for="item of list" :key="item.id">
                 <img class="item-img" :src="item.imgUrl">
                 <div class="item-info">
                     <p class="item-title">{{ item.title}}</p>
@@ -16,26 +16,29 @@
 <script>
 export default {
     name:'HomeRecommend',
-    data (){
-        return {
-            recommendList: [{
-            id: '0001',
-            imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/61/617ac4a711f6cb34a3.img.jpg_200x200_5e8ac1c0.jpg',
-            title: '苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界',
-            desc: ''
-        },{
-            id: '0002',
-            imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/61/617ac4a711f6cb34a3.img.jpg_200x200_5e8ac1c0.jpg',
-            title: '苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界',
-            desc: ''
-        },{
-            id: '0003',
-            imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/61/617ac4a711f6cb34a3.img.jpg_200x200_5e8ac1c0.jpg',
-            title: '苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界',
-            desc: ''
-        }] 
-        }
+    props: {
+        list: Array
     }
+    // data (){
+    //     return {
+    //         recommendList: [{
+    //         id: '0001',
+    //         imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/61/617ac4a711f6cb34a3.img.jpg_200x200_5e8ac1c0.jpg',
+    //         title: '苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界',
+    //         desc: ''
+    //     },{
+    //         id: '0002',
+    //         imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/61/617ac4a711f6cb34a3.img.jpg_200x200_5e8ac1c0.jpg',
+    //         title: '苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界',
+    //         desc: ''
+    //     },{
+    //         id: '0003',
+    //         imgUrl: 'http://img1.qunarzz.com/sight/p0/1903/61/617ac4a711f6cb34a3.img.jpg_200x200_5e8ac1c0.jpg',
+    //         title: '苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界苏州乐园森林水世界',
+    //         desc: ''
+    //     }] 
+    //     }
+    // }
 }
 </script>
 <style lang="stylus" scoped>
