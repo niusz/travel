@@ -1,6 +1,7 @@
 <template>
   <div>
    <city-header></city-header>
+<<<<<<< HEAD
    <city-search></city-search>
    <city-list 
    :cities="cities" 
@@ -11,6 +12,11 @@
    :cities="cities"
    @change="handleLetterChange">
    </city-alphabet>
+=======
+   <city-search :cities="cities"></city-search>
+   <city-list :cities="cities" :hot='hotCities'></city-list>
+   <city-alphabet :cities="cities"></city-alphabet>
+>>>>>>> city-search-logic
   </div>
 </template>
 <script>
