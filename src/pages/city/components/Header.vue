@@ -16,8 +16,8 @@ export default {
     .header
       postition: relative
       overflow: hidden
-      height: .86rem
-      line-height: .86rem
+      height: $headerHeight
+      line-height: $headerHeight
       text-align: center
       background: $bgColor
       color: #fff
