@@ -1,5 +1,4 @@
 <template>
-
     <swiper :options="swiperOption" v-if="showSwiper">
     <!-- slides -->
     <swiper-slide v-for="item of list" :key="item.id">
